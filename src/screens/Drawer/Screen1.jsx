@@ -1,11 +1,11 @@
 import React from 'react';
 import { Text, View } from 'react-native';
-import { styles } from '../style/styles.js';
+import { styles } from '../../style/styles';
 
-export default function Screen2() {
+export default function Screen1() {
     return (
         <View style={styles.center}>
-            <Text style={styles.title}>Screen 2</Text>
+            <Text style={styles.title}>Screen 1</Text>
         </View>
     )
 }
